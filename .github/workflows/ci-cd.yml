@@ -60,7 +60,7 @@ jobs:
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
             export DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}
-            cd ~/mean-app-deploy
+            cd ~/mean-assignment
             # Pull latest images from Docker Hub
             docker compose -f docker-compose.yml -f docker-compose.prod.yml pull
             # Restart containers with the newly pulled images
