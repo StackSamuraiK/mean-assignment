@@ -98,3 +98,11 @@ For the GitHub pipeline to work, you must add specific secrets to your repositor
    - Run `docker compose pull` and `docker compose up -d` to restart with the fresh code.
 
 5. Open your browser and navigate to `http://<YOUR_EC2_PUBLIC_IP>` to see the updated application live!
+
+---
+
+## 📸 Proofs & Screenshots
+
+For visual confirmation of the deployment process, working CI/CD pipelines, and the live application, please refer to the attached document containing all screenshots and proofs:
+
+[**View Deployment Proofs Document Here ->**](#) *(Replace this link with your actual document link)*
