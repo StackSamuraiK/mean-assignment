@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    image: ${DOCKER_USERNAME}/mean-backend:latest
+    build:
+      context: ./backend
+
+  frontend:
+    image: ${DOCKER_USERNAME}/mean-frontend:latest
+    build:
+      context: ./frontend
