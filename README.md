@@ -105,4 +105,4 @@ For the GitHub pipeline to work, you must add specific secrets to your repositor
 
 For visual confirmation of the deployment process, working CI/CD pipelines, and the live application, please refer to the attached document containing all screenshots and proofs:
 
-[**View Deployment Proofs Document Here ->**](https://docs.google.com/document/d/1AC79PO5ml67d-KX6SYhm6FDO0Pt0h_M-WtxzqiTdH6E/edit?usp=sharing)
+[**View Deployment Proofs Document Here**](https://docs.google.com/document/d/1AC79PO5ml67d-KX6SYhm6FDO0Pt0h_M-WtxzqiTdH6E/edit?usp=sharing)
