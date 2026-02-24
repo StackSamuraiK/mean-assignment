@@ -50,7 +50,7 @@ jobs:
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_SSH_KEY }}
           source: "docker-compose.yml,docker-compose.prod.yml,nginx/nginx.conf"
-          target: "~/mean-app-deploy"
+          target: "~/mean-assignment"
 
       - name: Deploy to VM via SSH
         uses: appleboy/ssh-action@master
@@ -61,7 +61,5 @@ jobs:
           script: |
             export DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}
             cd ~/mean-assignment
-            # Pull latest images from Docker Hub
             docker compose -f docker-compose.yml -f docker-compose.prod.yml pull
-            # Restart containers with the newly pulled images
             docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
